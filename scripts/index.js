@@ -46,13 +46,18 @@ function handleVisibleMenuApp() {
   menuApp.classList.toggle('active')
 }
 
+function searchOnEnter(event) {
+  if (event.keyCode === 13) {
+    window.location.href = `/lovs-bastian/pages/search-page.html`;
+  }
+}
+
 function search() {
   window.location.href = `/lovs-bastian/pages/search-page.html`;
 }
 
 function redirect() {
-  // window.location.href = `/lovs-bastian/pages/first-page.html`;
-  window.location.href = `/pages/first-page.html`;
+  window.location.href = `/lovs-bastian/pages/first-page.html`;
 }
 
 handleHistory()
