@@ -8,7 +8,7 @@ function redirectPage(pageName) {
   switch (pageName) {
     case 'second-page':
       if (page1) {
-        window.location.href = `../pages/${pageName}.html`;
+        window.location.href = `lovs-bastian/pages/${pageName}.html`;
       } else {
         $(document).ready(function() {
           $('#modal1').modal('show');
@@ -18,7 +18,7 @@ function redirectPage(pageName) {
       break;
     case 'third-page':
       if (page2) {
-        window.location.href = `../pages/${pageName}.html`;
+        window.location.href = `lovs-bastian/pages/${pageName}.html`;
       } else {
         $(document).ready(function() {
           $('#modal2').modal('show');
@@ -28,7 +28,7 @@ function redirectPage(pageName) {
       break;
     case 'fourth-page':
       if (page3) {
-        window.location.href = `../pages/${pageName}.html`;
+        window.location.href = `lovs-bastian/pages/${pageName}.html`;
       } else {
         $(document).ready(function() {
           $('#modal3').modal('show');
