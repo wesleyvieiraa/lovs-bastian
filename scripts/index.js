@@ -47,7 +47,7 @@ function handleVisibleMenuApp() {
 }
 
 function search() {
-  window.location.href = `/pages/first-page.html`;
+  window.location.href = `/lovs-bastian/pages/first-page.html`;
 }
 
 handleHistory()
