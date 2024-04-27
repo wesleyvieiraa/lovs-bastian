@@ -1,0 +1,80 @@
+.fonte-livvic-32 {
+  font-family: "Livvic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.fonte-livvic-22 {
+  font-family: "Livvic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
+
+.fonte-livvic-18 {
+  font-family: "Livvic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.lexend-exa-26 {
+  font-family: "Lexend Exa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+}
+
+.lexend-exa-42 {
+  font-family: "Lexend Exa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 42px;
+}
+
+.inter-16 {
+  /* 
+  weight 400
+  size 16
+   */
+}
+
+.background-padrao {
+  background-color: #D8D8D8;
+}
+
+.background-azul-bebe {
+  background-color: #B5EEE8;
+}
+
+.background-rosinha {
+  background-color: #E89FD4;
+}
+
+.background-roxinho {
+  background-color: #BB87C5;
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.box-shadow-foto {
+  box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tamanho-foto {
+  width: 239px;
+  height: 338px;
+}
+
+.bolinha {
+	width:80px;
+	height:80px;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+}
